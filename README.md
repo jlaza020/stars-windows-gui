@@ -21,3 +21,20 @@ Bonuses:
 * [Git](https://git-scm.com/downloads)
  
 ## Tutorial
+
+### Basics
+
+C# syntax is very similar to Java. It only has some slightly annoying differences. There are also some C#-like things that are an improvement of Java's syntax. For example, properties are declared like so:
+
+``` c#
+public class Car {
+
+    string Color { get; set; }
+    int NumOfWheels { get; set; }
+
+}
+```
+
+### Getting Started
+
+We will be making a multi-threaded application that retrieves items from a file and sorts them depending on the selected column.
