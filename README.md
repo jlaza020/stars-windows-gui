@@ -16,6 +16,7 @@ These are the things you need to have before we start:
 
 * A laptop running Windows
 * [Visual Studio](https://www.visualstudio.com/downloads/?rr=https%3A%2F%2Fwww.google.com%2F) (this takes a very long time to install, so please come prepared)
+
 Bonuses:
 
 * [Git](https://git-scm.com/downloads)
