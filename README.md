@@ -38,3 +38,16 @@ public class Car {
 ### Getting Started
 
 We will be making a multi-threaded application that retrieves items from a file and sorts them depending on the selected column.
+
+#### Create a Visual C# Project
+
+We will create a Visual C# project in Visual Studio. Steps follow:
+
+* Open up Visual Studio and wait for it to load.
+* Go to File > New > Project...
+* Go to Installed > Templates > Visual C# > Windows Forms Application.
+* Enter a name for the project, e.g., MyFirstApp.
+* Chose a path (e.g., C:\vs_projects) for the project using Browse.
+* Click OK.
+
+Yay, you've created your first C# project!
