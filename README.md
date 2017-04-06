@@ -36,19 +36,34 @@ public class Car {
 }
 ```
 
-### Getting Started
+### Overview
 
-We will be making a multi-threaded application that retrieves items from a file and sorts them depending on the selected column.
+* Create MainForm
+* Init database in Load Event Handler
+* Create and Design LoginForm
+    * Color and Font
+    * Username and Password Inputs
+    * Login Button
+    * Event Handler to Login User
+    * Error Provider
+    * Help Provider
+    * Size
+* Design MainForm
+    * Color and Font
+    * Buttons/Labels/Panels/TreeView
+    * Size/Anchoring/Docking
+    * Data Binding
+    * Event Handlers for Buttons
+    * Initialize TreeView
+    * Event Handler for TreeView
+    * Finish Data Binding
 
-#### Create a Visual C# Project
+### Screenshots
 
-We will create a Visual C# project in Visual Studio. Steps follow:
+Login Page:
 
-* Open up Visual Studio and wait for it to load.
-* Go to File > New > Project...
-* Go to Installed > Templates > Visual C# > Windows Forms Application.
-* Enter a name for the project, e.g., MyFirstApp.
-* Chose a path (e.g., C:\vs_projects) for the project using Browse.
-* Click OK.
+![Alt text](/dat/login.png?raw=true "Optional Title")
 
-Yay, you've created your first C# project!
+Main Page:
+
+![Alt text](/dat/main.png?raw=true "Optional Title")
