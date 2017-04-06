@@ -5,12 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyFirstApp
+namespace ListPlay
 {
-    public class User: INotifyPropertyChanged
+    public class User
     {
-
-        public event PropertyChangedEventHandler PropertyChanged;
 
         public string Username { get; set; }
         public string Password { get; set; }
@@ -27,14 +25,5 @@ namespace MyFirstApp
             Playlists.Add(playlist);
 
         }
-
-        protected void OnChange(string propName)
-        {
-            if (PropertyChanged != null)
-            {
-                PropertyChanged(this, new PropertyChangedEventArgs(propName));
-            }
-        }
-
     }
 }

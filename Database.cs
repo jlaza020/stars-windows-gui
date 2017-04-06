@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyFirstApp
+namespace ListPlay
 {
     public class Database
     {

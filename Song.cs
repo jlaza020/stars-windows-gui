@@ -6,13 +6,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyFirstApp
+namespace ListPlay
 {
-    public class Song: INotifyPropertyChanged
+    public class Song
     {
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
         public int Id { get; set; }
         public string Title { get; set; }
         public Album Album { get; set; }
@@ -24,15 +21,6 @@ namespace MyFirstApp
         public int Length { get; set; }
 
         public Song() { }
-
-        protected void OnChange(string propName)
-        {
-            if (PropertyChanged != null)
-            {
-                PropertyChanged(this, new PropertyChangedEventArgs(propName));
-            }
-        }
-
 
     }
 }
