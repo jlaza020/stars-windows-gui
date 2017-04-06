@@ -60,4 +60,4 @@ public class Car {
 
 ### Screenshots
 
-![Alt text](http://dat/login.jpg "Optional title")
+![Alt text](/dat/login.jpg?raw=true "Optional Title")
